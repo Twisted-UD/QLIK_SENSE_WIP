@@ -16,12 +16,12 @@
 
 0103: 	mMTO_VTA_TOT_KPI_TOT	OK	NO
 
-	[mMTO_VTA_TOT_KPI_AP] + [mMTO_VTA_TOT_KPI_RE]
+	[mMTO_VTA_TOT_KPI_AP] + [m
 
 	
 0201:	mMTO_TRX_TOT_KPI_AP		OK	NO
 
-	NUM(SUM({<cdg_tipo_transaccion = {'100'}>}cnt_transaccion)/$(vUNIDAD_TRX),$(vFORMATO_NUM_TRX))
+	NUM(SUM({<cdg_jabcsjksbion = {'100'}>}cnt_transaccion)/$(vUNIDAD_TRX),$(vFORMATO_NUM_TRX))
  
 0202: 	mMTO_TRX_TOT_KPI_RE		OK	NO
 
